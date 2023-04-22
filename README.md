@@ -107,6 +107,8 @@ func main() {
     }
 
     fmt.Println(result.ColNames())
+    fmt.Println(result.ColSimpleNames())
+
     values := make([]interface{}, result.ColLen())
     result.ForEach(func(i int, row datatable.DataRow) bool {
         fmt.Println(row.Values(values))
