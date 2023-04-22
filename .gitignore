@@ -20,10 +20,15 @@ debug.log
 
 /app
 /app.exe
+/main
+/main.exe
 /web/*.wasm
 /web/wasm_exec.js
 /lib.a
 /lib.h
+
+__debug_bin
+__debug_bin.exe
 
 # PlantUML VSCode extension
 /out/
