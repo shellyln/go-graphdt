@@ -7,6 +7,7 @@ A datatable that represents object graphs.
 [![release](https://img.shields.io/github/v/release/shellyln/go-graphdt)](https://github.com/shellyln/go-graphdt/releases)
 [![Go version](https://img.shields.io/github/go-mod/go-version/shellyln/go-graphdt)](https://github.com/shellyln/go-graphdt)
 
+<img src="https://raw.githubusercontent.com/shellyln/go-graphdt/master/_assets/logo-graphdt.svg" alt="logo" style="width:250px;" width="250">
 
 ---
 
