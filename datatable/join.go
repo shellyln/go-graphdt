@@ -190,7 +190,7 @@ func (p *DataTable) LeftJoin(colL int, dtR *DataTable, colR int, relName string,
 		}
 	}
 	if leftRelsIncl > 0 {
-		retDt.relations[leftRelsLen].vec.FillByRowMap(nil, p.index, leftSrcRowMap)
+		retDt.relations[leftRelsLen].vec.FillByRowMap(nil, p.index, leftSrcRowMap) // TODO: BUG: index out of range if new with non zero size and AppendFromCSV
 	}
 	for c := 0; c < rightRelsLen; c++ {
 		retDt.relations[leftRelsLen+leftRelsIncl+c].vec.FillByRowMap(rightDstRowMap, dtR.relations[c].vec, rightSrcRowMap)

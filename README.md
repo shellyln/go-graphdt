@@ -24,7 +24,6 @@ A data table that represents object graphs.
 package main
 
 import (
-    _ "embed"
     "bytes"
     "encoding/csv"
     "fmt"
@@ -33,17 +32,20 @@ import (
     "github.com/shellyln/go-graphdt/datatable/types"
 )
 
-//go:embed _testdata/test1.csv
 var csv1Bytes []byte
-//go:embed _testdata/test2.csv
 var csv2Bytes []byte
 
 func main() {
+    csv1Bytes = []byte(`Foo,Bar,Baz
+1,2,3`)
+    csv2Bytes = []byte(`Foo,Qux,Quux,Corge
+1,1,2,3
+1,11,12,13`)
+
     ctx := runtime.NewRuntimeContext()
 
     dt1 := datatable.NewDataTableWithSize(
-        ctx,
-        1000, 1000,
+        ctx, 0, 0,
         types.Type_Nullable_String,
         types.Type_Nullable_I64,
         types.Type_Nullable_F64,
@@ -51,8 +53,7 @@ func main() {
     dt1.SetSimpleHeader([]string{"Foo", "Bar", "Baz"})
 
     dt2 := datatable.NewDataTableWithSize(
-        ctx,
-        1000, 1000,
+        ctx, 0, 0,
         types.Type_Nullable_String,
         types.Type_Nullable_String,
         types.Type_Nullable_I64,
@@ -68,7 +69,7 @@ func main() {
         return
     }
 
-    err = dt1.Filter([]types.FilterInfo{
+    err := dt1.Filter([]types.FilterInfo{
         {Op: types.Op_LoadCol, Col: 1},
         {Op: types.Op_LoadImmediate, Param: 63},
         {Op: types.Op_Lt},
@@ -76,7 +77,7 @@ func main() {
         {Op: types.Op_LoadImmediate, Param: 64},
         {Op: types.Op_Gt},
         {Op: types.Op_Or},
-	}...)
+    }...)
     if err != nil {
         fmt.Printf("error = %v\n", err)
         return
@@ -105,11 +106,17 @@ func main() {
         return
     }
 
-    var dst []Foo
-    if err := result.Unmarshal(&dst); err != nil {
-        t.Errorf("error = %v\n", err)
-        return
-    }
+    fmt.Println(result.ColNames())
+    values := make([]interface{}, result.ColLen())
+    result.ForEach(func(i int, row datatable.DataRow) bool {
+        fmt.Println(row.Values(values))
+        return false
+    })
+
+    result.ToUntyped(func(i int, record map[string]interface{}) bool {
+        fmt.Println(record)
+        return false
+    })
 }
 ```
 
