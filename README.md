@@ -1,6 +1,15 @@
 # GraphDT
 
-A data table that represents object graphs.
+A datatable that represents object graphs.
+
+
+[![Test](https://github.com/shellyln/go-graphdt/actions/workflows/test.yml/badge.svg)](https://github.com/shellyln/go-graphdt/actions/workflows/test.yml)
+[![release](https://img.shields.io/github/v/release/shellyln/go-graphdt)](https://github.com/shellyln/go-graphdt/releases)
+[![Go version](https://img.shields.io/github/go-mod/go-version/shellyln/go-graphdt)](https://github.com/shellyln/go-graphdt)
+
+
+---
+
 
 ## ⭐️ Features
 
