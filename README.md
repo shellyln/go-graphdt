@@ -113,6 +113,14 @@ func main() {
 }
 ```
 
+## 🚧 TODO
+
+* Standard scalar / aggregation functions
+* Data adapter interface
+* Unit tests
+* Documents
+
+
 ## ⚖️ License
 
 MIT  
