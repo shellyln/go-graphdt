@@ -106,7 +106,7 @@ func main() {
     }
 
     var dst []Foo
-    if err := dtFoo6.Unmarshal(&dst); err != nil {
+    if err := result.Unmarshal(&dst); err != nil {
         t.Errorf("error = %v\n", err)
         return
     }
