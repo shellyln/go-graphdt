@@ -1,0 +1,291 @@
+{
+    "fieldA1": "a1-0",
+    "fieldA2": "a2-0",
+    "fieldA3": null,
+    "fieldA4": "a4-0",
+    "bar":{
+        "fieldB1": null,
+        "fieldB2": "b2-0",
+        "fieldB3": "b3-0",
+        "fieldB4": "b4-0",
+        "bazes":[{
+            "colX1": "x1-0",
+            "aaa": [{
+                "colY1": "x1-0"
+            }]
+        }],
+        "quxes":[{
+            "fieldC1": "c1-0",
+            "fieldC2": "c2-0",
+            "fieldC3": "c3-0",
+            "fieldC4": "c4-0-0"
+        },{
+            "fieldC1": "c1-1",
+            "fieldC2": "c2-1",
+            "fieldC3": "c3-1",
+            "fieldC4": "c4-1"
+        },{
+            "fieldC1": "c1-2",
+            "fieldC2": "c2-2",
+            "fieldC3": "c3-2",
+            "fieldC4": "c4-2"
+        },{
+            "fieldC1": "c1-3",
+            "fieldC2": "c2-3",
+            "fieldC3": "c3-3",
+            "fieldC4": "c4-3"
+        }]
+    },
+    "quuxes":[{
+        "fieldD1": "d1-0",
+        "fieldD2": "d2-0",
+        "fieldD3": "d3-0",
+        "fieldD4": "d4-0",
+        "corges":[{
+            "fieldE1": "e1-0",
+            "fieldE2": "e2-0",
+            "fieldE3": "e3-0",
+            "fieldE4": "e4-0"
+        },{
+            "fieldE1": "e1-1",
+            "fieldE2": "e2-1",
+            "fieldE3": "e3-1",
+            "fieldE4": "e4-1"
+        },{
+            "fieldE1": "e1-2",
+            "fieldE2": "e2-2",
+            "fieldE3": "e3-2",
+            "fieldE4": "e4-2"
+        }],
+        "graults":[{
+            "fieldF1": "f1-0",
+            "fieldF2": "f2-0",
+            "fieldF3": "f3-0",
+            "fieldF4": "f4-0"
+        },{
+            "fieldF1": "f1-1",
+            "fieldF2": "f2-1",
+            "fieldF3": "f3-1",
+            "fieldF4": "f4-1"
+        }]
+    }]
+}
+{
+    "fieldA1": "a1-0",
+    "fieldA2": "a2-0",
+    "fieldA3": "a3-0-1",
+    "fieldA4": "a4-0",
+    "bar":{
+        "fieldB1": "b1-0-1",
+        "fieldB2": "b2-0",
+        "fieldB3": "b3-0",
+        "fieldB4": "b4-0",
+        "bazes":[{
+            "colX1": "x1-0",
+            "aaa": [{
+                "colY1": "x1-0"
+            }]
+        }],
+        "quxes":[{
+            "fieldC1": "c1-0",
+            "fieldC2": "c2-0",
+            "fieldC3": "c3-0",
+            "fieldC4": "c4-0-1"
+        },{
+            "fieldC1": "c1-1",
+            "fieldC2": "c2-1",
+            "fieldC3": "c3-1",
+            "fieldC4": "c4-1"
+        },{
+            "fieldC1": "c1-2",
+            "fieldC2": "c2-2",
+            "fieldC3": "c3-2",
+            "fieldC4": "c4-2"
+        },{
+            "fieldC1": "c1-3",
+            "fieldC2": "c2-3",
+            "fieldC3": "c3-3",
+            "fieldC4": "c4-3"
+        }]
+    },
+    "quuxes":[{
+        "fieldD1": "d1-0",
+        "fieldD2": "d2-0",
+        "fieldD3": "d3-0",
+        "fieldD4": "d4-0",
+        "corges":[{
+            "fieldE1": "e1-0",
+            "fieldE2": "e2-0",
+            "fieldE3": "e3-0",
+            "fieldE4": "e4-0"
+        },{
+            "fieldE1": "e1-1",
+            "fieldE2": "e2-1",
+            "fieldE3": "e3-1",
+            "fieldE4": "e4-1"
+        },{
+            "fieldE1": "e1-2",
+            "fieldE2": "e2-2",
+            "fieldE3": "e3-2",
+            "fieldE4": "e4-2"
+        }],
+        "graults":[{
+            "fieldF1": "f1-0",
+            "fieldF2": "f2-0",
+            "fieldF3": "f3-0",
+            "fieldF4": "f4-0"
+        },{
+            "fieldF1": "f1-1",
+            "fieldF2": "f2-1",
+            "fieldF3": "f3-1",
+            "fieldF4": "f4-1"
+        }]
+    }]
+}
+{
+    "fieldA1": "a1-0",
+    "fieldA2": "a2-0",
+    "fieldA3": "a3-0-2",
+    "fieldA4": "a4-0",
+    "bar":{
+        "fieldB1": "b1-0-2",
+        "fieldB2": "b2-0",
+        "fieldB3": "b3-0",
+        "fieldB4": "b4-0",
+        "bazes":[{
+            "colX1": "x1-0",
+            "aaa": [{
+                "colY1": "x1-0"
+            }]
+        }],
+        "quxes":[{
+            "fieldC1": "c1-0",
+            "fieldC2": "c2-0",
+            "fieldC3": "c3-0",
+            "fieldC4": "c4-0-2"
+        },{
+            "fieldC1": "c1-1",
+            "fieldC2": "c2-1",
+            "fieldC3": "c3-1",
+            "fieldC4": "c4-1"
+        },{
+            "fieldC1": "c1-2",
+            "fieldC2": "c2-2",
+            "fieldC3": "c3-2",
+            "fieldC4": "c4-2"
+        },{
+            "fieldC1": "c1-3",
+            "fieldC2": "c2-3",
+            "fieldC3": "c3-3",
+            "fieldC4": "c4-3"
+        }]
+    },
+    "quuxes":[{
+        "fieldD1": "d1-0",
+        "fieldD2": "d2-0",
+        "fieldD3": "d3-0",
+        "fieldD4": "d4-0",
+        "corges":[{
+            "fieldE1": "e1-0",
+            "fieldE2": "e2-0",
+            "fieldE3": "e3-0",
+            "fieldE4": "e4-0"
+        },{
+            "fieldE1": "e1-1",
+            "fieldE2": "e2-1",
+            "fieldE3": "e3-1",
+            "fieldE4": "e4-1"
+        },{
+            "fieldE1": "e1-2",
+            "fieldE2": "e2-2",
+            "fieldE3": "e3-2",
+            "fieldE4": "e4-2"
+        }],
+        "graults":[{
+            "fieldF1": "f1-0",
+            "fieldF2": "f2-0",
+            "fieldF3": "f3-0",
+            "fieldF4": "f4-0"
+        },{
+            "fieldF1": "f1-1",
+            "fieldF2": "f2-1",
+            "fieldF3": "f3-1",
+            "fieldF4": "f4-1"
+        }]
+    }]
+}
+{
+    "fieldA3": "a3-0-3"
+}
+{
+    "fieldA1": "a1-0",
+    "fieldA2": "a2-0",
+    "fieldA3": "a3-0-4",
+    "fieldA4": "a4-0",
+    "bar":{
+        "fieldB1": "b1-0-4",
+        "fieldB2": "b2-0",
+        "fieldB3": "b3-0",
+        "fieldB4": "b4-0",
+        "bazes":[{
+            "colX1": "x1-0",
+            "aaa": [{
+                "colY1": "x1-0"
+            }]
+        }],
+        "quxes":[{
+            "fieldC1": "c1-0",
+            "fieldC2": "c2-0",
+            "fieldC3": "c3-0",
+            "fieldC4": "c4-0-4"
+        },{
+            "fieldC1": "c1-1",
+            "fieldC2": "c2-1",
+            "fieldC3": "c3-1",
+            "fieldC4": "c4-1"
+        },{
+            "fieldC1": "c1-2",
+            "fieldC2": "c2-2",
+            "fieldC3": "c3-2",
+            "fieldC4": "c4-2"
+        },{
+            "fieldC1": "c1-3",
+            "fieldC2": "c2-3",
+            "fieldC3": "c3-3",
+            "fieldC4": "c4-3"
+        }]
+    },
+    "quuxes":[{
+        "fieldD1": "d1-0",
+        "fieldD2": "d2-0",
+        "fieldD3": "d3-0",
+        "fieldD4": "d4-0",
+        "corges":[{
+            "fieldE1": "e1-0",
+            "fieldE2": "e2-0",
+            "fieldE3": "e3-0",
+            "fieldE4": "e4-0"
+        },{
+            "fieldE1": "e1-1",
+            "fieldE2": "e2-1",
+            "fieldE3": "e3-1",
+            "fieldE4": "e4-1"
+        },{
+            "fieldE1": "e1-2",
+            "fieldE2": "e2-2",
+            "fieldE3": "e3-2",
+            "fieldE4": "e4-2"
+        }],
+        "graults":[{
+            "fieldF1": "f1-0",
+            "fieldF2": "f2-0",
+            "fieldF3": "f3-0",
+            "fieldF4": "f4-0"
+        },{
+            "fieldF1": "f1-1",
+            "fieldF2": "f2-1",
+            "fieldF3": "f3-1",
+            "fieldF4": "f4-1"
+        }]
+    }]
+}
