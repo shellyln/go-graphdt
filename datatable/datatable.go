@@ -4,7 +4,7 @@ import (
 	"github.com/shellyln/go-graphdt/datatable/datacolimpl"
 	"github.com/shellyln/go-graphdt/datatable/runtime"
 	. "github.com/shellyln/go-graphdt/datatable/types"
-	"github.com/shellyln/go-graphdt/nameutil"
+	"github.com/shellyln/go-nameutil/nameutil"
 )
 
 var (

@@ -1,7 +1,7 @@
 package datatable
 
 import (
-	"github.com/shellyln/go-graphdt/nameutil"
+	"github.com/shellyln/go-nameutil/nameutil"
 )
 
 func (p *DataTable) GetDescribe() *DescribeObject {

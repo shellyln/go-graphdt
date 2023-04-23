@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/shellyln/go-graphdt/nameutil"
+	"github.com/shellyln/go-nameutil/nameutil"
 )
 
 // AppendFromJSON appends rows from JSON Lines stream.

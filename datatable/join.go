@@ -6,7 +6,7 @@ import (
 	"github.com/shellyln/go-graphdt/datatable/datacolimpl"
 	"github.com/shellyln/go-graphdt/datatable/datacolumn"
 	. "github.com/shellyln/go-graphdt/datatable/types"
-	"github.com/shellyln/go-graphdt/nameutil"
+	"github.com/shellyln/go-nameutil/nameutil"
 )
 
 type JoinOptions struct {

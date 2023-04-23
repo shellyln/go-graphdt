@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/shellyln/go-graphdt/nameutil"
+	"github.com/shellyln/go-nameutil/nameutil"
 )
 
 // Name the colums with namespaces.
