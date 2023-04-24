@@ -1,6 +1,7 @@
 package datatable
 
 import (
+	. "github.com/shellyln/go-graphdt/datatable/types"
 	"github.com/shellyln/go-nameutil/nameutil"
 )
 

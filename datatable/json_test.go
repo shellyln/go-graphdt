@@ -37,33 +37,33 @@ func TestReadEmbedJson1(t *testing.T) {
 			buf := bytes.NewReader(test1JsonBytes)
 			ctx := runtime.NewRuntimeContext()
 
-			describe := datatable.DescribeObject{
+			describe := types.DescribeObject{
 				Name: "Foo",
-				Fields: []datatable.DescribeField{
-					{"fieldA1", types.Type_Nullable_String},
-					{"fieldA2", types.Type_Nullable_String},
-					{"fieldA3", types.Type_Nullable_String},
-					{"fieldA4", types.Type_Nullable_String},
+				Fields: []types.DescribeField{
+					{Name: "fieldA1", Type: types.Type_Nullable_String},
+					{Name: "fieldA2", Type: types.Type_Nullable_String},
+					{Name: "fieldA3", Type: types.Type_Nullable_String},
+					{Name: "fieldA4", Type: types.Type_Nullable_String},
 				},
-				Relations: []datatable.DescribeRelation{
+				Relations: []types.DescribeRelation{
 					{
 						Name: "bar",
-						Target: &datatable.DescribeObject{
-							Fields: []datatable.DescribeField{
-								{"fieldB1", types.Type_Nullable_String},
-								{"fieldB2", types.Type_Nullable_String},
-								{"fieldB3", types.Type_Nullable_String},
-								{"fieldB4", types.Type_Nullable_String},
+						Target: &types.DescribeObject{
+							Fields: []types.DescribeField{
+								{Name: "fieldB1", Type: types.Type_Nullable_String},
+								{Name: "fieldB2", Type: types.Type_Nullable_String},
+								{Name: "fieldB3", Type: types.Type_Nullable_String},
+								{Name: "fieldB4", Type: types.Type_Nullable_String},
 							},
-							Relations: []datatable.DescribeRelation{
+							Relations: []types.DescribeRelation{
 								{
 									Name: "quxes",
-									Target: &datatable.DescribeObject{
-										Fields: []datatable.DescribeField{
-											{"fieldC1", types.Type_Nullable_String},
-											{"fieldC2", types.Type_Nullable_String},
-											{"fieldC3", types.Type_Nullable_String},
-											{"fieldC4", types.Type_Nullable_String},
+									Target: &types.DescribeObject{
+										Fields: []types.DescribeField{
+											{Name: "fieldC1", Type: types.Type_Nullable_String},
+											{Name: "fieldC2", Type: types.Type_Nullable_String},
+											{Name: "fieldC3", Type: types.Type_Nullable_String},
+											{Name: "fieldC4", Type: types.Type_Nullable_String},
 										},
 									},
 								},
@@ -73,34 +73,34 @@ func TestReadEmbedJson1(t *testing.T) {
 					},
 					{
 						Name: "quuxes",
-						Target: &datatable.DescribeObject{
-							Fields: []datatable.DescribeField{
-								{"fieldD1", types.Type_Nullable_String},
-								{"fieldD2", types.Type_Nullable_String},
-								{"fieldD3", types.Type_Nullable_String},
-								{"fieldD4", types.Type_Nullable_String},
+						Target: &types.DescribeObject{
+							Fields: []types.DescribeField{
+								{Name: "fieldD1", Type: types.Type_Nullable_String},
+								{Name: "fieldD2", Type: types.Type_Nullable_String},
+								{Name: "fieldD3", Type: types.Type_Nullable_String},
+								{Name: "fieldD4", Type: types.Type_Nullable_String},
 							},
-							Relations: []datatable.DescribeRelation{
+							Relations: []types.DescribeRelation{
 								{
 									Name: "corges",
-									Target: &datatable.DescribeObject{
-										Fields: []datatable.DescribeField{
-											{"fieldE1", types.Type_Nullable_String},
-											{"fieldE2", types.Type_Nullable_String},
-											{"fieldE3", types.Type_Nullable_String},
-											{"fieldE4", types.Type_Nullable_String},
+									Target: &types.DescribeObject{
+										Fields: []types.DescribeField{
+											{Name: "fieldE1", Type: types.Type_Nullable_String},
+											{Name: "fieldE2", Type: types.Type_Nullable_String},
+											{Name: "fieldE3", Type: types.Type_Nullable_String},
+											{Name: "fieldE4", Type: types.Type_Nullable_String},
 										},
 									},
 									Required: true,
 								},
 								{
 									Name: "graults",
-									Target: &datatable.DescribeObject{
-										Fields: []datatable.DescribeField{
-											{"fieldF1", types.Type_Nullable_String},
-											{"fieldF2", types.Type_Nullable_String},
-											{"fieldF3", types.Type_Nullable_String},
-											{"fieldF4", types.Type_Nullable_String},
+									Target: &types.DescribeObject{
+										Fields: []types.DescribeField{
+											{Name: "fieldF1", Type: types.Type_Nullable_String},
+											{Name: "fieldF2", Type: types.Type_Nullable_String},
+											{Name: "fieldF3", Type: types.Type_Nullable_String},
+											{Name: "fieldF4", Type: types.Type_Nullable_String},
 										},
 									},
 								},
