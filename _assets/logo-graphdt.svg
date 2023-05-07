@@ -45,7 +45,7 @@
        transform="translate(-8.1090114,-65.171055)">
       <path
          sodipodi:type="star"
-         style="fill:none;stroke:#753030;stroke-width:7.362;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:none;stroke:#d108b6;stroke-width:7.362;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
          id="path1011"
          inkscape:flatsided="true"
          sodipodi:sides="3"
@@ -63,7 +63,7 @@
          transform="translate(-9.7286109,78.951418)" />
       <path
          sodipodi:type="star"
-         style="fill:none;stroke:#753030;stroke-width:7.362;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:none;stroke:#d108b6;stroke-width:7.362;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
          id="path1011-7"
          inkscape:flatsided="true"
          sodipodi:sides="3"
@@ -81,7 +81,7 @@
          transform="translate(11.256769,73.370208)" />
       <path
          sodipodi:type="star"
-         style="fill:none;stroke:#753030;stroke-width:16.744;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:none;stroke:#d108b6;stroke-width:16.744;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
          id="path1011-1"
          inkscape:flatsided="true"
          sodipodi:sides="3"
@@ -99,7 +99,7 @@
          transform="matrix(0.43967889,0,0,0.43967889,78.608134,64.515295)" />
       <path
          sodipodi:type="star"
-         style="fill:none;stroke:#753030;stroke-width:7.362;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:none;stroke:#d108b6;stroke-width:7.362;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
          id="path1011-0"
          inkscape:flatsided="true"
          sodipodi:sides="3"
@@ -117,7 +117,7 @@
          transform="matrix(0.47895373,0,0,0.47895373,87.362885,104.64338)" />
       <path
          sodipodi:type="star"
-         style="fill:none;stroke:#753030;stroke-width:16.744;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:none;stroke:#d108b6;stroke-width:16.744;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
          id="path1011-1-9"
          inkscape:flatsided="true"
          sodipodi:sides="3"
@@ -137,7 +137,7 @@
     <g
        aria-label="GraphDT"
        id="text2131"
-       style="font-size:21.1577px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New';letter-spacing:0px;word-spacing:0px;fill:#753030;stroke-width:0.220392"
+       style="font-size:21.1577px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New';letter-spacing:0px;word-spacing:0px;fill:#d108b6;stroke-width:0.220392"
        transform="translate(-11.289518,-81.821946)">
       <path
          d="m 29.53046,243.55267 q -2.231477,1.26037 -4.958836,1.26037 -3.171589,0 -5.134462,-2.04552 -1.952541,-2.04552 -1.952541,-5.4134 0,-3.44019 2.169491,-5.64068 2.179821,-2.21081 5.516704,-2.21081 2.417433,0 4.060047,0.78515 v 1.92155 q -1.797578,-1.1364 -4.256334,-1.1364 -2.489749,0 -4.080709,1.71493 -1.590959,1.71493 -1.590959,4.44229 0,2.81001 1.477319,4.42163 1.47732,1.60129 4.008393,1.60129 1.735592,0 3.006294,-0.69217 v -4.15303 h -3.243905 v -1.5703 h 4.979498 z"
